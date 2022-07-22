@@ -1,5 +1,5 @@
 # startdb-2022-desafio
-Minha implementação do desafio para a seleção do StartDB.
+Minha implementação do desafio para a seleção do Programa Estágio Start DB.
 
 Foi baixado o projeto e realizei mudanças somente no arquivo "desafio/forca.js", como orientado.
 
