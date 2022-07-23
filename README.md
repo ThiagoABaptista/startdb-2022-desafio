@@ -1,5 +1,5 @@
 # startdb-2022-desafio
-# Thiago Aschebrock Baptista
+## Thiago Aschebrock Baptista
 
 Minha implementação do desafio para a seleção do Programa Estágio Start DB.
 
