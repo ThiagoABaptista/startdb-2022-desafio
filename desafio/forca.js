@@ -1,9 +1,9 @@
 class Forca {
-
-  letrasChutadas = []; // Deve conter todas as letras chutadas
+  //Implementação Thiago Aschebrock Baptista
+  letrasChutadas = []; // Todas as letras chutadas
   vidas; // Quantidade de vidas restantes
-  palavra = []; // Deve ser um array com as letras que já foram acertadas ou o valor "_" para as letras não identificadas
-  resposta;
+  palavra = []; // Aarray com as letras que já foram acertadas ou o valor "_" para as letras não identificadas
+  resposta; //Resposta
   constructor(resposta){
     this.resposta = resposta.toLowerCase();
     this.vidas = 6;
@@ -41,9 +41,9 @@ class Forca {
 
   buscarDadosDoJogo() {
       return {
-          letrasChutadas: this.letrasChutadas, // Deve conter todas as letras chutadas
-          vidas: this.vidas, // Quantidade de vidas restantes
-          palavra: this.palavra,// Deve ser um array com as letras que já foram acertadas ou o valor "_" para as letras não identificadas
+          letrasChutadas: this.letrasChutadas,
+          vidas: this.vidas,
+          palavra: this.palavra,
       }
   }
 }
